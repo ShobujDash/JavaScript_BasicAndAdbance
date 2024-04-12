@@ -18,3 +18,8 @@ console.log(fruits)
 let shiftFruits = fruits.shift();
 console.log(shiftFruits)
 console.log(fruits)
+
+
+const arr = ["item1","item2","item3"]
+const arr2 = arr.slice(0)
+console.log("arr2" , arr2)
