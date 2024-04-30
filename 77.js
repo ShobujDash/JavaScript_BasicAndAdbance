@@ -24,4 +24,5 @@ function createUser(firstName, lastName, email, age, address) {
 
 const user1 = createUser("shobuj", "das", "shobuj@email.com", 3, "laksam");
 const is18 = user1.is18();
-console.log(is18);
+const about = user1.about();
+console.log(about);
