@@ -1,20 +1,29 @@
 // iterables
-// jekhane ami for od loop korte pari
-// string , array are iterable
+// jeikhane amra loop lagaite pari
+// string , arra are iterable
 
 // const firstName = "Harshit";
 // for (let char of firstName) {
 //   console.log(char)
 // }
 
-//
+// const items = ["itemq1", "item2", "item3", "item4"];
+// for (let item of items) {
+//   console.log(item)
+// }
+
+
+
+
+
+
 
 
 // array like object
-// jetar modde length properting ache
-// r jetar modde index access korte pari
-// example :-string
+// jar modde length property ache
+// or jetake amra index er maddome access korte pari
+// example :- string
 
-const firstName = "harshit";
-console.log(firstName.length);
-console.log(firstName[2]);
+const firstName = "Shobuj";
+console.log(firstName.length)
+console.log(firstName[2])
