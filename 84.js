@@ -25,3 +25,11 @@ const user2 = new CreateUser(
   "laksam"
 );
 const user3 = new CreateUser("mohit", "das", "shobuj@email.com", 3, "laksam");
+
+
+for (let key in user2) {
+  // console.log(key)
+  if (user1.hasOwnProperty(key)) {
+    console.log(key)
+  }
+}
