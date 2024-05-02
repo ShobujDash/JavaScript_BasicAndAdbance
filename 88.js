@@ -9,7 +9,8 @@ class Person{
   get fullName() {
     return `${this.firstName} ${this.lastName}`
   }
-  setName(firstName , lastName) {
+  set fullName(fullName) {
+    const [firstName, lastName] = fullName.split(" ");
     this.firstName = firstName;
     this.lastName = lastName;
   }
@@ -22,13 +23,10 @@ const person1 =new Person("harshit", "sharma", 5);
 
 console.log(person1.firstName)
 console.log(person1.lastName)
-person1.setName("mohit", "vashistha");
+person1.fullName = "mohit Vashistha"
 console.log(person1.firstName);
 console.log(person1.lastName);
-
-
-
-
+console.log(person1.fullName);
 
 
 
