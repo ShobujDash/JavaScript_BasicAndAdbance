@@ -40,3 +40,7 @@ const person1 = new Person("harshit", "sharma , 8");
 const info = Person.classInfo();
 console.log(info)
 console.log(Person.dsce)
+
+
+
+
